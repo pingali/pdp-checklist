@@ -28,12 +28,18 @@ Checklist Original Source: [initial checklist](https://www.ikigailaw.com/wp-cont
 
 JSON version: [ikigai-checklist.json](ikigai-checklist.json)
 
+Contributions
+-------------
+
+Please fork this repository and give us a pull request. 
+
 Thanks!
 -------
 
 [Anirudh Rastogi](mailto:anirudh@ikigailaw.com) from Ikigai Law for
 approving this digitization process.
 
+[Medianama](https://www.medianama.com) for facilitating the conversation
 
 
 

@@ -26,7 +26,7 @@ Team: [Ikigai Law](https://www.ikigailaw.com/)
 
 Original Source: [initial checklist](https://www.ikigailaw.com/wp-content/uploads/2019/12/IkigaiLaw_PDP-Checklist_11122019.pdf)
 
-Versions: [ikigai-checklist.json](JSON) [ikigai-checklist.md](Markdown)
+Versions: [JSON](ikigai-checklist.json) [Markdown](ikigai-checklist.md)
 
 Contributions
 -------------

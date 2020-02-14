@@ -18,7 +18,6 @@ is the most comprehensive collection of articles on the matter
 including the actual text of the law, perspectives from various legal
 firms, and process input to organizations. Please refer to them. 
 
-
 Ikigai Checklist
 -----------------
 
@@ -41,5 +40,11 @@ approving this digitization process.
 
 [Medianama](https://www.medianama.com) for facilitating the conversation
 
+About Scribble 
+---------------
 
-
+[Scribble Data](https://scribbledata.io) is a data processor for
+enterprises. Our main offering is a trustworthy and secure Machine
+Learning data preparation service that enables enterprises to
+productionize machine learning models 5x faster, and scale their
+analytics usecases by 10x. 

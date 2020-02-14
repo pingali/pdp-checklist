@@ -1,0 +1,52 @@
+Part,PartTitle,Section,SectionTitle,Subsection,SubsectionTitle,Subject,SubjectTitle,Groups,Functions,SubjectDescription,Provisions
+1,INTRODUCTION,0,INTRODUCTION,0,,0,Introduction,,,"The Personal Data Protection Bill, 2019 (“PDP Bill”)  was introduced in Parliament on 11 December 2019. If passed, the law will  require organisations to revamp their data-related processes and embed privacy within their systems and operations.  
+  
+Accountability is a key feature of the PDP Bill and organisations should be prepared to demonstrate compliance with its requirements. The PDP Bill proposes significant penalties for non-compliance that could go up to 4% of total worldwide turnover of an entity. 
+  
+The PDP Bill establishes a new regulator – the Data Protection Authority of India (“DPA”) – that is entrusted with enforcing this new law and ensuring compliance.  
+  
+This checklist is intended to be a starting point for organisations to understand their obligations under the law. The checklist lists out compliance requirements and action items for organisations under five heads: (i)  understanding scope and preparing for the law; (ii) accountability; (iii) fair and lawful processing; (iv) data principals’ rights; and (v) transferring data outside India. 
+
+The checklist indicates whether a set of actions is relevant for data fiduciaries (data controllers) (“DFs”) or data processors (“DPs”) or both. It also identifies the relevant teams that need to be involved in each set of actions: Legal/ Compliance, Public Relations, Technical and IT, HR and Customer Relations.
+",
+2,COMPLIANCE CHECKLIST,1,UNDERSTANDING SCOPE AND PREPARING FOR THE LAW,1,,1,Scope,"DF, DP",L,"The PDP Bill applies to the processing of ‘personal data’. Processing means collection, use, storage, sharing or any other activity related to data.
+
+The PDP Bill regulates data-processing activities of ‘data fiduciaries’ and ‘data processors’.
+
+‘Significant data fiduciaries’ are required to comply with heightened obligations, such as conducting data protection impact assessments, appointing a data protection officer, record-keeping, and having their processes audited yearly. Social media intermediaries are classified as ‘significant data fiduciaries’ under the PDP Bill.","Clauses 2, 26"
+,,1,,1,,2,Territorial Scope,"DF, DP",L,"The PDP Bill applies to data processing in India and to processing by Indian entities. 
+
+The PDP Bill applies to processing outside India if it is in connection with any business carried out in India, or the systematic offering of goods or services in India; or in connection with any activity that involves profiling of data principals in India.
+
+The central government can exempt certain data processors from the law, where pursuant to contracts with offshore entities, data processors process data of individuals who are outside India.","Clauses 2, 37"
+,,1,,1,,3,Data Inventory,"DF, DP","L, T, C, H","Significant data fiduciaries are required to keep records of important operations in the data life cycle. 
+
+While not specifically required, several provisions such as privacy by design, data protection impact assessment, etc. will start with the preparation of a data inventory and mapping data flows. An inventory is the first step towards compliance with the PDP Bill.",Clause 28
+,,1,,1,,4,Non-personal Data,"DF, DP",L,"While most compliance requirements relate to personal data, data fiduciaries and processors can be asked by the central government to share anonymised or non-personal data for specific policy goals.",Clause 91
+,,2,ACCOUNTABILITY,1,Accountability: Governance and Systems,1,Privacy by design policy,"DF
+","L, T","Data fiduciaries should prepare a privacy by design policy. They may get this certified by the DPA. Once certified, they will be eligible to participate in a sandbox proposed under the PDP Bill. Through this privacy by design policy, they should embed privacy features in their systems and adopt suitable organisational and technical systems.",Clause 22
+,,2,,1,Accountability: Governance and Systems,2,Data Protection Impact Assessment,DF,"L, T","Before undertaking certain processing activities, significant data fiduciaries are required to conduct a data protection impact assessment (“DPIA”). The activities for which a DPIA is required: processing involving new technologies or large scale profiling or use of sensitive personal data, or processing which carries a significant risk of harm to data principals.
+(The DPA will decide whether all organisations have to comply with this requirement or only significant data fiduciaries.)",Clause 27
+,,2,,1,Accountability: Governance and Systems,3,Security safeguards,"DF, DP","L, T","Data fiduciaries should adopt appropriate security safeguards, after considering the nature and purpose of processing, risks associated with the processing, and likelihood and severity of harm that could arise from processing.
+(The DPA may issue standards for security safeguards to be maintained by data fiduciaries and data processors.)",Clause 24
+,,2,,1,Accountability: Governance and Systems,4,Data Audits,DF,"L, T","Significant data fiduciaries should have their policies and processing activities audited annually by an independent data auditor.
+(The DPA will decide whether all organisations have to comply with this requirement or only significant data fiduciaries.)",Clause 29
+,,2,,1,Accountability: Governance and Systems,5,Grievance redressal,DF,"L, T, C",Data fiduciaries should have effective grievance redressal mechanisms.,Clause 32
+,,2,,1,Accountability: Governance and Systems,6,Breach notification,DF,"L, T, C, P",Data fiduciaries should notify the DPA of a breach where such breach is likely to cause harm to a data principal.,Clause 25
+,,2,,2,Accountability: Personnel,7,Personnel,DF,L,"While not a specific requirement, several obligations under the PDP Bill require personnel to be adequately trained. For instance, privacy by design requires data fiduciaries to ensure that managerial, organisational and business practices are designed to anticipate and avoid harms to data principals.",Clause 22
+,,2,,2,Accountability: Personnel,8,Data Protection Officer,DF,L,Significant data fiduciaries should appoint data protection officers to ensure compliance with the PDP Bill and act as a point of contact for the data principal and the DPA. (The DPA will decide whether all organisations have to comply with this requirement or only significant data fiduciaries.),Clause 30
+,,3,FAIR AND LAWFUL PROCESSING,1,,1,Basis for processing personal data,DF,"L, C","Any processing should be conducted under one of the legal bases/ grounds specified. These include consent, state action, legal obligation, compliance with court order, emergencies, employment and reasonable purposes to be specified by the DPA.",Chapter III
+,,3,,1,,2,Consent,DF,"L, T, C","In order to lawfully process personal data, data fiduciaries must comply with strict consent requirements. 
+They should obtain consent that is informed, free, clear and specific. In case of sensitive personal data, obtain ‘explicit’ consent.","Clauses 11, 23"
+,,3,,1,,3,Privacy Notice,DF,"L, T, C
+","Data fiduciaries should notify data principals of: type of data collected, manner of collection, purpose of collection, likelihood of significant harm, procedure for exercise of data principal rights, among other things.","Clauses 7, 23"
+,,3,,1,,4,‘Reasonable purpose’ as a legal basis for processing,DF,"L, C","Data fiduciaries can process personal data if the processing is necessary for ‘reasonable purposes’ specified by the DPA These may include mergers and acquisitions, network and information security, debt-recovery and fraud prevention.",Clause 14
+,,3,,1,,5,Children's Data,DF,"L, T, C",Data fiduciaries should process children’s personal data in a manner that protects their interests and implement appropriate mechanisms for age verification and parental consent. The DPA may designate certain data fiduciaries who processing large volumes of data relating to children as ‘guardian fiduciaries’.,Clause 16
+,,4,DATA PRINCIPALS ’ RIGHTS,1,,1,Right to confirmation and access,DF,"L, T, C",Data fiduciaries should provide clear and concise confirmation and summary of personal data processing activities and the list of data fiduciaries with whom the personal data has been shared.,Clause 17
+,,4,,1,,2,Right to seek correction,DF,"L, T, C",Data fiduciaries should enable data principals to seek rectification or completion of their personal data.,Clause 18
+,,4,,1,,3,Right to data portability,DF,"L, T, C",Data fiduciaries should provide and transmit personal data collected through automated means to a data principal or another data fiduciary in a machine-readable format.,Clause 19
+,,4,,1,,4,Right to be forgotten,DF,"L, T, C","Data fiduciaries should restrict or prevent disclosure of personal data of individuals, if required to do so by the adjudicating officer.",Clause 20
+,,5,TRANSFERRING DATA OUTSIDE INDIA,1,,1,Data localisation,"DF, DP","L, T",Data fiduciaries should: (i) store sensitive personal data in India (but they can transfer such data outside India under limited legal bases); (ii) store and process critical personal data only in India.,Clause 33
+,,5,,1,,2,Cross-border transfers,"DF, DP",L,"Data fiduciaries may transfer sensitive personal data outside India under limited bases, which include: contract/ intra-group transfers approved by the DPA; transfers to countries/ sectors with dequate protection (permitted by the central government); or transfers specifically approved by the DPA. 
+
+Transfers would also require explicit consent of the data principal as a necessary precondition.",Clause 34

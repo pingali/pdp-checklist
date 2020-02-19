@@ -44,7 +44,7 @@ def extract():
         sectiontitle = entry['SectionTitle']
         if section not in checklist:
             checklist[section] = {
-                'section': section,
+                'no': section,
                 'title': sectiontitle,
                 'subjects': OrderedDict([])
             }
@@ -64,7 +64,7 @@ def extract():
     
         if subject not in checklist[section]['subjects']:
             checklist[section]['subjects'][subject] = {
-                'subject': subject,
+                'no': subject,
                 'title': subjecttitle,
                 'groups': groups,
                 'description': description,
@@ -85,10 +85,12 @@ def extract():
         actions = checklist[section]['subjects'][subject]['actions']
         actions[actionnum] = {
             'no': actionnum,
-            'description': action
+            'title': "Action {}".format(actionnum),
+            'description': action,
         }
         
     overview = {
+        'title': 'Ikigai PDP 2019 Checklist',
         'overview': introduction,
         'checklist': checklist
     }
@@ -111,7 +113,7 @@ def _markdown(checklist):
     mdFile.new_paragraph(checklist['overview'])
 
     sections = sorted(checklist['checklist'].values(),
-                      key=lambda s: s['section'])
+                      key=lambda s: int(s['no']))
     for section in sections:
         mdFile.new_header(level=1, title=section['title'])
         for subject in section['subjects'].values():
@@ -122,7 +124,7 @@ def _markdown(checklist):
             mdFile.new_paragraph("Groups: " + ", ".join(subject['groups']))
 
             actions = [['No','Description', 'Check']]
-            actions += [[a['no'], a['description'], ''] for a in subject['actions'].values()]
+            actions += [[a['no'], a['title'], a['description']] for a in subject['actions'].values()]
             rows = len(actions) 
             actions = flatten(actions)
             mdFile.new_table(columns=3, rows=rows,

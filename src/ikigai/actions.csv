@@ -1,10 +1,8 @@
 Section,SectionTitle,Subject,SubjectTitle,ActionNumber,Action,Business,People,Architecture,Security,Catalog,Classification,Access,Transformation,Documentation,Interaction,Notes
 1,UNDERSTANDING SCOPE AND PREPARING FOR THE LAW,1,"Scope
-",1,"Identify if they process any personal data (i.e. data that 
-relates to an individual or can identify an individual).",Y,,,,Y,Y,,,,,Metadata generation and management
+",1,"Identify if they process any personal data (i.e. data that relates to an individual or can identify an individual).",Y,,,,Y,Y,,,,,Metadata generation and management
 1,,1,,2,"Understand if they determine the purpose and means of data processing. If so, they will be data fiduciaries. processing. If so, they will be data fiduciaries.",Y,,,,Y,Y,,,,,
-1,,1,,3,"Understand if they are only processing data on behalf of another entity. In that case, they may be data processors.
-",Y,,,,Y,Y,,,,,
+1,,1,,3,"Understand if they are only processing data on behalf of another entity. In that case, they may be data processors.  ",Y,,,,Y,Y,,,,,
 1,,1,,4,Identify if their data processing activities are exempted under the law.,Y,,,,Y,Y,,,,,
 1,,1,,5,Understand if they are ‘significant data fiduciaries’ (notified by the DPA). ,Y,,,,,,,,Y,,May require filing with the DPA
 1,,2,Territorial Scope,1,"Identify if any part of their data processing activity takes place in India.

@@ -1,834 +1,1270 @@
 {
-    "title": "Ikigai PDP 2019 Checklist",
     "checklist": {
         "1": {
-            "title": "UNDERSTANDING SCOPE AND PREPARING FOR THE LAW",
-            "no": "1",
             "subjects": {
                 "1": {
+                    "no": "1",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business",
+                                "Catalog",
+                                "Classification"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
-                            "description": "Identify if they process any personal data (i.e. data that relates to an individual or can identify an individual).",
-                            "no": "1"
+                            "description": "Identify if they process any personal data (i.e. data that \nrelates to an individual or can identify an individual).",
+                            "notes": "Metadata generation and management"
                         },
                         "2": {
+                            "tags": [
+                                "Business",
+                                "Catalog",
+                                "Classification"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Understand if they determine the purpose and means of data processing. If so, they will be data fiduciaries. processing. If so, they will be data fiduciaries.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Business",
+                                "Catalog",
+                                "Classification"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Understand if they are only processing data on behalf of another entity. In that case, they may be data processors.",
-                            "no": "3"
+                            "notes": ""
                         },
                         "4": {
+                            "tags": [
+                                "Business",
+                                "Catalog",
+                                "Classification"
+                            ],
+                            "no": "4",
                             "title": "Action 4",
                             "description": "Identify if their data processing activities are exempted under the law.",
-                            "no": "4"
+                            "notes": ""
                         },
                         "5": {
+                            "tags": [
+                                "Business",
+                                "Documentation"
+                            ],
+                            "no": "5",
                             "title": "Action 5",
                             "description": "Understand if they are \u2018significant data fiduciaries\u2019 (notified by the DPA).",
-                            "no": "5"
+                            "notes": "May require filing with the DPA"
                         }
                     },
-                    "description": "The PDP Bill applies to the processing of \u2018personal data\u2019. Processing means collection, use, storage, sharing or any other activity related to data.\n\nThe PDP Bill regulates data-processing activities of \u2018data fiduciaries\u2019 and \u2018data processors\u2019.\n\n\u2018Significant data fiduciaries\u2019 are required to comply with heightened obligations, such as conducting data protection impact assessments, appointing a data protection officer, record-keeping, and having their processes audited yearly. Social media intermediaries are classified as \u2018significant data fiduciaries\u2019 under the PDP Bill.",
-                    "no": "1",
                     "groups": [
                         "Data Fiduciaries",
                         "Data Processors"
                     ],
+                    "description": "The PDP Bill applies to the processing of \u2018personal data\u2019. Processing means collection, use, storage, sharing or any other activity related to data.\n\nThe PDP Bill regulates data-processing activities of \u2018data fiduciaries\u2019 and \u2018data processors\u2019.\n\n\u2018Significant data fiduciaries\u2019 are required to comply with heightened obligations, such as conducting data protection impact assessments, appointing a data protection officer, record-keeping, and having their processes audited yearly. Social media intermediaries are classified as \u2018significant data fiduciaries\u2019 under the PDP Bill.",
+                    "title": "Scope",
+                    "provisions": "Clauses 2, 26",
                     "functions": [
                         "Legal/Compliance"
-                    ],
-                    "provisions": "Clauses 2, 26",
-                    "title": "Scope"
+                    ]
                 },
                 "2": {
+                    "no": "2",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Identify if any part of their data processing activity takes place in India.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Business",
+                                "Classification"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "If they process data outside India, identify if Indian citizens are involved or if the activity is conducted in connection with any business in India or offering of goods and services in India.",
-                            "no": "2"
+                            "notes": ""
                         }
                     },
-                    "description": "The PDP Bill applies to data processing in India and to processing by Indian entities. \n\nThe PDP Bill applies to processing outside India if it is in connection with any business carried out in India, or the systematic offering of goods or services in India; or in connection with any activity that involves profiling of data principals in India.\n\nThe central government can exempt certain data processors from the law, where pursuant to contracts with offshore entities, data processors process data of individuals who are outside India.",
-                    "no": "2",
                     "groups": [
                         "Data Fiduciaries",
                         "Data Processors"
                     ],
+                    "description": "The PDP Bill applies to data processing in India and to processing by Indian entities. \n\nThe PDP Bill applies to processing outside India if it is in connection with any business carried out in India, or the systematic offering of goods or services in India; or in connection with any activity that involves profiling of data principals in India.\n\nThe central government can exempt certain data processors from the law, where pursuant to contracts with offshore entities, data processors process data of individuals who are outside India.",
+                    "title": "Territorial Scope",
+                    "provisions": "Clauses 2, 37",
                     "functions": [
                         "Legal/Compliance"
-                    ],
-                    "provisions": "Clauses 2, 37",
-                    "title": "Territorial Scope"
+                    ]
                 },
                 "3": {
+                    "no": "3",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Catalog",
+                                "Access"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Identify all data processed and held within different departments, including details such as its source, who it will be shared with, who has access to it within the organisation, etc.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Catalog"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Create a comprehensive data inventory using this information.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Catalog",
+                                "Transformation"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Consider using automated privacy tools for preparing a data inventory.",
-                            "no": "3"
+                            "notes": ""
                         },
                         "4": {
+                            "tags": [
+                                "Catalog"
+                            ],
+                            "no": "4",
                             "title": "Action 4",
                             "description": "Develop processes for updating the inventory periodically.",
-                            "no": "4"
+                            "notes": ""
                         },
                         "5": {
+                            "tags": [
+                                "Classification"
+                            ],
+                            "no": "5",
                             "title": "Action 5",
                             "description": "Understand different types of data with the organisation, such as \u2018personal data\u2019, \u2018sensitive personal data\u2019, \u2018critical personal data\u2019 and \u2018non-personal data\u2019.",
-                            "no": "5"
+                            "notes": ""
                         }
                     },
-                    "description": "Significant data fiduciaries are required to keep records of important operations in the data life cycle. \n\nWhile not specifically required, several provisions such as privacy by design, data protection impact assessment, etc. will start with the preparation of a data inventory and mapping data flows. An inventory is the first step towards compliance with the PDP Bill.",
-                    "no": "3",
                     "groups": [
                         "Data Fiduciaries",
                         "Data Processors"
                     ],
+                    "description": "Significant data fiduciaries are required to keep records of important operations in the data life cycle. \n\nWhile not specifically required, several provisions such as privacy by design, data protection impact assessment, etc. will start with the preparation of a data inventory and mapping data flows. An inventory is the first step towards compliance with the PDP Bill.",
+                    "title": "Data Inventory",
+                    "provisions": "Clause 28",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT",
                         "Customer Relations",
                         "HR"
-                    ],
-                    "provisions": "Clause 28",
-                    "title": "Data Inventory"
+                    ]
                 },
                 "4": {
+                    "no": "4",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Classification"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Understand types of non-personal data they hold and process.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Transformation"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Develop processes to respond to government directions for non-personal data.",
-                            "no": "2"
+                            "notes": ""
                         }
                     },
-                    "description": "While most compliance requirements relate to personal data, data fiduciaries and processors can be asked by the central government to share anonymised or non-personal data for specific policy goals.",
-                    "no": "4",
                     "groups": [
                         "Data Fiduciaries",
                         "Data Processors"
                     ],
+                    "description": "While most compliance requirements relate to personal data, data fiduciaries and processors can be asked by the central government to share anonymised or non-personal data for specific policy goals.",
+                    "title": "Non-personal Data",
+                    "provisions": "Clause 91",
                     "functions": [
                         "Legal/Compliance"
-                    ],
-                    "provisions": "Clause 91",
-                    "title": "Non-personal Data"
+                    ]
                 }
-            }
+            },
+            "no": "1",
+            "title": "UNDERSTANDING SCOPE AND PREPARING FOR THE LAW"
         },
         "2": {
-            "title": "ACCOUNTABILITY",
-            "no": "2",
             "subjects": {
                 "1": {
+                    "no": "1",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Architecture"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Develop a privacy by design policy.",
-                            "no": "1"
+                            "notes": "Principles of privacy by design https://medium.com/searchencrypt/7-principles-of-privacy-by-design-8a0f16d1f9ce"
                         },
                         "2": {
+                            "tags": [
+                                "Architecture",
+                                "Classification",
+                                "Access"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Develop procedures to identify risk of harm to data principals and formulate mitigation strategies.",
-                            "no": "2"
+                            "notes": "Leaks/errors and their propagation"
                         },
                         "3": {
+                            "tags": [
+                                "Architecture",
+                                "Classification"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Ensure data protection obligations (such as purpose limitation, collection limitation, data quality and data storage) are reflected in business practices and in IT systems.",
-                            "no": "3"
+                            "notes": "Classification by quality"
                         },
                         "4": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "4",
                             "title": "Action 4",
                             "description": "Employ technology that is in accordance with commercially accepted or certified standards.",
-                            "no": "4"
+                            "notes": ""
                         },
                         "5": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "5",
                             "title": "Action 5",
                             "description": "Develop and implement processes to train personnel across all levels to ensure they understand data protection principles and PDP Bill requirements.",
-                            "no": "5"
+                            "notes": ""
                         },
                         "6": {
+                            "tags": [
+                                "Business",
+                                "Architecture",
+                                "Access"
+                            ],
+                            "no": "6",
                             "title": "Action 6",
                             "description": "Ensure privacy features are embedded into all parts of a data life cycle.",
-                            "no": "6"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries should prepare a privacy by design policy. They may get this certified by the DPA. Once certified, they will be eligible to participate in a sandbox proposed under the PDP Bill. Through this privacy by design policy, they should embed privacy features in their systems and adopt suitable organisational and technical systems.",
-                    "no": "1",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Data fiduciaries should prepare a privacy by design policy. They may get this certified by the DPA. Once certified, they will be eligible to participate in a sandbox proposed under the PDP Bill. Through this privacy by design policy, they should embed privacy features in their systems and adopt suitable organisational and technical systems.",
+                    "title": "Privacy by design policy",
+                    "provisions": "Clause 22",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT"
-                    ],
-                    "provisions": "Clause 22",
-                    "title": "Privacy by design policy"
+                    ]
                 },
                 "2": {
+                    "no": "2",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Create internal processes to ensure that privacy risk is understood as a business risk in the development of a product and the appropriate teams are flagged when a product involves an activity that requires a DPIA.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Develop processes for conducting DPIAs and assign responsibility to relevant personnel.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Documentation"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Develop templates for DPIA reports.",
-                            "no": "3"
+                            "notes": ""
                         }
                     },
-                    "description": "Before undertaking certain processing activities, significant data fiduciaries are required to conduct a data protection impact assessment (\u201cDPIA\u201d). The activities for which a DPIA is required: processing involving new technologies or large scale profiling or use of sensitive personal data, or processing which carries a significant risk of harm to data principals.\n(The DPA will decide whether all organisations have to comply with this requirement or only significant data fiduciaries.)",
-                    "no": "2",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Before undertaking certain processing activities, significant data fiduciaries are required to conduct a data protection impact assessment (\u201cDPIA\u201d). The activities for which a DPIA is required: processing involving new technologies or large scale profiling or use of sensitive personal data, or processing which carries a significant risk of harm to data principals.\n(The DPA will decide whether all organisations have to comply with this requirement or only significant data fiduciaries.)",
+                    "title": "Data Protection Impact Assessment",
+                    "provisions": "Clause 27",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT"
-                    ],
-                    "provisions": "Clause 27",
-                    "title": "Data Protection Impact Assessment"
+                    ]
                 },
                 "3": {
+                    "no": "3",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business",
+                                "Architecture",
+                                "Documentation"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Develop procedures to assess risks associated with processing and the likelihood and severity of harm to individuals from their data-processing activities.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Architecture",
+                                "Access",
+                                "Transformation"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Develop procedures to mitigate those risks using appropriate security safeguards.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Architecture",
+                                "Access",
+                                "Transformation"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Include appropriate techniques such as de-identification, encryption, identity and access management, data loss prevention, as required.",
-                            "no": "3"
+                            "notes": ""
                         },
                         "4": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "4",
                             "title": "Action 4",
                             "description": "Undertake review of security safeguards periodically.",
-                            "no": "4"
+                            "notes": ""
                         },
                         "5": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "5",
                             "title": "Action 5",
                             "description": "Ensure third party contracts have appropriate security controls.",
-                            "no": "5"
+                            "notes": ""
                         },
                         "6": {
+                            "tags": [
+                                "Business",
+                                "Security",
+                                "Documentation"
+                            ],
+                            "no": "6",
                             "title": "Action 6",
                             "description": "Review security safeguards periodically and maintain a record of the review.",
-                            "no": "6"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries should adopt appropriate security safeguards, after considering the nature and purpose of processing, risks associated with the processing, and likelihood and severity of harm that could arise from processing.\n(The DPA may issue standards for security safeguards to be maintained by data fiduciaries and data processors.)",
-                    "no": "3",
                     "groups": [
                         "Data Fiduciaries",
                         "Data Processors"
                     ],
+                    "description": "Data fiduciaries should adopt appropriate security safeguards, after considering the nature and purpose of processing, risks associated with the processing, and likelihood and severity of harm that could arise from processing.\n(The DPA may issue standards for security safeguards to be maintained by data fiduciaries and data processors.)",
+                    "title": "Security safeguards",
+                    "provisions": "Clause 24",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT"
-                    ],
-                    "provisions": "Clause 24",
-                    "title": "Security safeguards"
+                    ]
                 },
                 "4": {
+                    "no": "4",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Catalog",
+                                "Classification",
+                                "Documentation"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Develop processes to enable third party audits.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Documentation"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Develop internal processes to demonstrate compliance with obligations under the PDP Bill.",
-                            "no": "2"
+                            "notes": ""
                         }
                     },
-                    "description": "Significant data fiduciaries should have their policies and processing activities audited annually by an independent data auditor.\n(The DPA will decide whether all organisations have to comply with this requirement or only significant data fiduciaries.)",
-                    "no": "4",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Significant data fiduciaries should have their policies and processing activities audited annually by an independent data auditor.\n(The DPA will decide whether all organisations have to comply with this requirement or only significant data fiduciaries.)",
+                    "title": "Data Audits",
+                    "provisions": "Clause 29",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT"
-                    ],
-                    "provisions": "Clause 29",
-                    "title": "Data Audits"
+                    ]
                 },
                 "5": {
+                    "no": "5",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business",
+                                "Interaction"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Create mechanisms for data principals to raise grievances with the organisation and receive timely responses.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Designate officers who will be the points of contact for such grievances.",
-                            "no": "2"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries should have effective grievance redressal mechanisms.",
-                    "no": "5",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Data fiduciaries should have effective grievance redressal mechanisms.",
+                    "title": "Grievance redressal",
+                    "provisions": "Clause 32",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT",
                         "Customer Relations"
-                    ],
-                    "provisions": "Clause 32",
-                    "title": "Grievance redressal"
+                    ]
                 },
                 "6": {
+                    "no": "6",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Security",
+                                "Documentation"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Develop data breach response procedures to notify the DPA as soon as possible in case of a breach.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Architecture",
+                                "Catalog"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Put in place procedures to assess situations exposing data principals to risk of harm.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Business",
+                                "Documentation"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Prepare templates for notifying the DPA and data principals (when directed by the DPA).",
-                            "no": "3"
+                            "notes": ""
                         },
                         "4": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "4",
                             "title": "Action 4",
                             "description": "Review contracts with third parties and processors to ensure the fiduciary will be able to notify the DPA in time.",
-                            "no": "4"
+                            "notes": ""
                         },
                         "5": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "5",
                             "title": "Action 5",
                             "description": "Review liability provisions in third party contracts for breaches caused by third parties.",
-                            "no": "5"
+                            "notes": ""
                         },
                         "6": {
+                            "tags": [
+                                "Business",
+                                "Security"
+                            ],
+                            "no": "6",
                             "title": "Action 6",
                             "description": "Review insurance coverage for data breaches.",
-                            "no": "6"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries should notify the DPA of a breach where such breach is likely to cause harm to a data principal.",
-                    "no": "6",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Data fiduciaries should notify the DPA of a breach where such breach is likely to cause harm to a data principal.",
+                    "title": "Breach notification",
+                    "provisions": "Clause 25",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT",
                         "Customer Relations",
                         "Public Relations"
-                    ],
-                    "provisions": "Clause 25",
-                    "title": "Breach notification"
+                    ]
                 },
                 "7": {
+                    "no": "7",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Documentation"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Ensure that senior management is aware of the compliance requirements and impact of non-compliance.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Allocate budget for data protection compliance.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Architecture",
+                                "Security",
+                                "Documentation"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Consider having clear lines of reporting and allocation of responsibility for data governance within the organisation.",
-                            "no": "3"
+                            "notes": ""
                         },
                         "4": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "4",
                             "title": "Action 4",
                             "description": "Implement programmes to train personnel on data protection compliance requirements under the law and concepts such as harm and risk to individuals as a result of processing.",
-                            "no": "4"
+                            "notes": ""
                         }
                     },
-                    "description": "While not a specific requirement, several obligations under the PDP Bill require personnel to be adequately trained. For instance, privacy by design requires data fiduciaries to ensure that managerial, organisational and business practices are designed to anticipate and avoid harms to data principals.",
-                    "no": "7",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "While not a specific requirement, several obligations under the PDP Bill require personnel to be adequately trained. For instance, privacy by design requires data fiduciaries to ensure that managerial, organisational and business practices are designed to anticipate and avoid harms to data principals.",
+                    "title": "Personnel",
+                    "provisions": "Clause 22",
                     "functions": [
                         "Legal/Compliance"
-                    ],
-                    "provisions": "Clause 22",
-                    "title": "Personnel"
+                    ]
                 },
                 "8": {
+                    "no": "8",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "People"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Understand if they are a significant data fiduciary or are otherwise required to appoint a data protection officer.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "People"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "If required, appoint a data protection officer as the point-of-contact for all data compliance related issues.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Business",
+                                "People"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Ensure that the data protection officer resides in India.",
-                            "no": "3"
+                            "notes": ""
                         }
                     },
-                    "description": "Significant data fiduciaries should appoint data protection officers to ensure compliance with the PDP Bill and act as a point of contact for the data principal and the DPA. (The DPA will decide whether all organisations have to comply with this requirement or only significant data fiduciaries.)",
-                    "no": "8",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Significant data fiduciaries should appoint data protection officers to ensure compliance with the PDP Bill and act as a point of contact for the data principal and the DPA. (The DPA will decide whether all organisations have to comply with this requirement or only significant data fiduciaries.)",
+                    "title": "Data Protection Officer",
+                    "provisions": "Clause 30",
                     "functions": [
                         "Legal/Compliance"
-                    ],
-                    "provisions": "Clause 30",
-                    "title": "Data Protection Officer"
+                    ]
                 }
-            }
+            },
+            "no": "2",
+            "title": "ACCOUNTABILITY"
         },
         "3": {
-            "title": "FAIR AND LAWFUL PROCESSING",
-            "no": "3",
             "subjects": {
                 "1": {
+                    "no": "1",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business",
+                                "Documentation",
+                                "Interaction"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Identify and document a legal basis for processing any category of data.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Business",
+                                "Documentation",
+                                "Interaction"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Before relying on consent, understand if any of the other bases are applicable. For instance, if personal data has to be shared under a law or for compliance with a court order, separate consent would not be required.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Business",
+                                "Interaction"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Explain the bases of processing in their privacy policies/ notices.",
-                            "no": "3"
+                            "notes": ""
                         }
                     },
-                    "description": "Any processing should be conducted under one of the legal bases/ grounds specified. These include consent, state action, legal obligation, compliance with court order, emergencies, employment and reasonable purposes to be specified by the DPA.",
-                    "no": "1",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Any processing should be conducted under one of the legal bases/ grounds specified. These include consent, state action, legal obligation, compliance with court order, emergencies, employment and reasonable purposes to be specified by the DPA.",
+                    "title": "Basis for processing personal data",
+                    "provisions": "Chapter III",
                     "functions": [
                         "Legal/Compliance",
                         "Customer Relations"
-                    ],
-                    "provisions": "Chapter III",
-                    "title": "Basis for processing personal data"
+                    ]
                 },
                 "2": {
+                    "no": "2",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Ensure that consent is sought before processing.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Determine what makes consent \u2018explicit\u2019.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Business",
+                                "Interaction"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Maintain clear records of consent obtained from data principals to be able to demonstrate that consent was given at the time of processing.",
-                            "no": "3"
+                            "notes": ""
                         },
                         "4": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "4",
                             "title": "Action 4",
                             "description": "Ensure that provision of goods or services or performance of a contract is not conditional on consent to processing any personal data that is not necessary for that purpose.",
-                            "no": "4"
+                            "notes": ""
                         },
                         "5": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "5",
                             "title": "Action 5",
                             "description": "Ensure that consent is free, specific and clear.",
-                            "no": "5"
+                            "notes": ""
                         },
                         "6": {
+                            "tags": [
+                                "Business",
+                                "Interaction"
+                            ],
+                            "no": "6",
                             "title": "Action 6",
                             "description": "Review existing consents to ensure compliance with the new requirements and where non-compliant, draft new consent forms to seek fresh consent.",
-                            "no": "6"
+                            "notes": ""
                         },
                         "7": {
+                            "tags": [
+                                "Business",
+                                "Architecture",
+                                "Catalog",
+                                "Access",
+                                "Transformation"
+                            ],
+                            "no": "7",
                             "title": "Action 7",
                             "description": "Create mechanisms to allow data principals to withdraw consent.",
-                            "no": "7"
+                            "notes": ""
                         },
                         "8": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "8",
                             "title": "Action 8",
                             "description": "Create mechanisms to allow data principals to give or withdraw consent through consent managers.",
-                            "no": "8"
+                            "notes": ""
                         }
                     },
-                    "description": "In order to lawfully process personal data, data fiduciaries must comply with strict consent requirements. \nThey should obtain consent that is informed, free, clear and specific. In case of sensitive personal data, obtain \u2018explicit\u2019 consent.",
-                    "no": "2",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "In order to lawfully process personal data, data fiduciaries must comply with strict consent requirements. \nThey should obtain consent that is informed, free, clear and specific. In case of sensitive personal data, obtain \u2018explicit\u2019 consent.",
+                    "title": "Consent",
+                    "provisions": "Clauses 11, 23",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT",
                         "Customer Relations"
-                    ],
-                    "provisions": "Clauses 11, 23",
-                    "title": "Consent"
+                    ]
                 },
                 "3": {
+                    "no": "3",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Review and update privacy notices to make them PDP Bill-compliant (or develop privacy notices where they do not exist).",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Develop processes to provide information in a clear and easily comprehensive form.",
-                            "no": "2"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries should notify data principals of: type of data collected, manner of collection, purpose of collection, likelihood of significant harm, procedure for exercise of data principal rights, among other things.",
-                    "no": "3",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Data fiduciaries should notify data principals of: type of data collected, manner of collection, purpose of collection, likelihood of significant harm, procedure for exercise of data principal rights, among other things.",
+                    "title": "Privacy Notice",
+                    "provisions": "Clauses 7, 23",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT",
                         "Customer Relations"
-                    ],
-                    "provisions": "Clauses 7, 23",
-                    "title": "Privacy Notice"
+                    ]
                 },
                 "4": {
+                    "no": "4",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Understand if processing is for any of the reasonable purposes specified by the DPA.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Assess whether processing is \u2018necessary\u2019 for a listed reasonable purpose, having regard to factors such as interest of the data fiduciary in that processing, any public interest in processing, and the reasonable expectation of the data principal with respect to the processing.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Business",
+                                "Documentation"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Record the assessment to be able to demonstrate compliance.",
-                            "no": "3"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries can process personal data if the processing is necessary for \u2018reasonable purposes\u2019 specified by the DPA These may include mergers and acquisitions, network and information security, debt-recovery and fraud prevention.",
-                    "no": "4",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Data fiduciaries can process personal data if the processing is necessary for \u2018reasonable purposes\u2019 specified by the DPA These may include mergers and acquisitions, network and information security, debt-recovery and fraud prevention.",
+                    "title": "\u2018Reasonable purpose\u2019 as a legal basis for processing",
+                    "provisions": "Clause 14",
                     "functions": [
                         "Legal/Compliance",
                         "Customer Relations"
-                    ],
-                    "provisions": "Clause 14",
-                    "title": "\u2018Reasonable purpose\u2019 as a legal basis for processing"
+                    ]
                 },
                 "5": {
+                    "no": "5",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Identify proportion of personal data likely to be of children and assess possibility of harm to children arising out of processing.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Business",
+                                "Classification"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Develop appropriate methods to verify age.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Create forms for seeking parental consent.",
-                            "no": "3"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries should process children\u2019s personal data in a manner that protects their interests and implement appropriate mechanisms for age verification and parental consent. The DPA may designate certain data fiduciaries who processing large volumes of data relating to children as \u2018guardian fiduciaries\u2019.",
-                    "no": "5",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Data fiduciaries should process children\u2019s personal data in a manner that protects their interests and implement appropriate mechanisms for age verification and parental consent. The DPA may designate certain data fiduciaries who processing large volumes of data relating to children as \u2018guardian fiduciaries\u2019.",
+                    "title": "Children's Data",
+                    "provisions": "Clause 16",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT",
                         "Customer Relations"
-                    ],
-                    "provisions": "Clause 16",
-                    "title": "Children's Data"
+                    ]
                 }
-            }
+            },
+            "no": "3",
+            "title": "FAIR AND LAWFUL PROCESSING"
         },
         "4": {
-            "title": "DATA PRINCIPALS \u2019 RIGHTS",
-            "no": "4",
             "subjects": {
                 "1": {
+                    "no": "1",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business",
+                                "Security",
+                                "Catalog",
+                                "Documentation"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Develop processes to allow individuals to make such requests.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Business",
+                                "Security",
+                                "Catalog",
+                                "Documentation"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Create templates for summaries of personal data and processing activities to be provided to data principals, upon request.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Consider automated means to provide confirmation and summary of processing activities to data principals.",
-                            "no": "3"
+                            "notes": ""
                         },
                         "4": {
+                            "tags": [
+                                "Business",
+                                "Architecture",
+                                "Security",
+                                "Catalog",
+                                "Access",
+                                "Documentation"
+                            ],
+                            "no": "4",
                             "title": "Action 4",
                             "description": "Maintain a list of entities with whom the personal data of is shared.",
-                            "no": "4"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries should provide clear and concise confirmation and summary of personal data processing activities and the list of data fiduciaries with whom the personal data has been shared.",
-                    "no": "1",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Data fiduciaries should provide clear and concise confirmation and summary of personal data processing activities and the list of data fiduciaries with whom the personal data has been shared.",
+                    "title": "Right to confirmation and access",
+                    "provisions": "Clause 17",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT",
                         "Customer Relations"
-                    ],
-                    "provisions": "Clause 17",
-                    "title": "Right to confirmation and access"
+                    ]
                 },
                 "2": {
+                    "no": "2",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Develop internal processes that enable correction of inaccurate data, completion of incomplete data, and update old data in a timely manner.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Business",
+                                "Catalog",
+                                "Documentation"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Create a system whereby relevant stakeholders are notified of any change to the data pursuant to such requests.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Understand the legal mechanisms under which these rights can be resisted.",
-                            "no": "3"
+                            "notes": ""
                         },
                         "4": {
+                            "tags": [
+                                "Business",
+                                "Documentation"
+                            ],
+                            "no": "4",
                             "title": "Action 4",
                             "description": "Develop templates which list the reasons for denial of such requests.",
-                            "no": "4"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries should enable data principals to seek rectification or completion of their personal data.",
-                    "no": "2",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Data fiduciaries should enable data principals to seek rectification or completion of their personal data.",
+                    "title": "Right to seek correction",
+                    "provisions": "Clause 18",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT",
                         "Customer Relations"
-                    ],
-                    "provisions": "Clause 18",
-                    "title": "Right to seek correction"
+                    ]
                 },
                 "3": {
+                    "no": "3",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Architecture",
+                                "Catalog",
+                                "Classification"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Classify personal data according to automated processing and non-automated processing.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Architecture",
+                                "Catalog",
+                                "Classification",
+                                "Transformation"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Assess different machine-readable formats.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Architecture",
+                                "Security",
+                                "Catalog",
+                                "Transformation"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Develop processes to enable secure data transfer to other data fiduciaries.",
-                            "no": "3"
+                            "notes": ""
                         },
                         "4": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "4",
                             "title": "Action 4",
                             "description": "Understand the legal mechanisms under which such requests can be resisted",
-                            "no": "4"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries should provide and transmit personal data collected through automated means to a data principal or another data fiduciary in a machine-readable format.",
-                    "no": "3",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Data fiduciaries should provide and transmit personal data collected through automated means to a data principal or another data fiduciary in a machine-readable format.",
+                    "title": "Right to data portability",
+                    "provisions": "Clause 19",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT",
                         "Customer Relations"
-                    ],
-                    "provisions": "Clause 19",
-                    "title": "Right to data portability"
+                    ]
                 },
                 "4": {
+                    "no": "4",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business",
+                                "Architecture",
+                                "Documentation"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Develop processes to determine the relevance of the data to the purpose of collection.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Architecture",
+                                "Security",
+                                "Catalog",
+                                "Documentation"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Inform other stakeholders that the data principal has requested the erasure of personal data.",
-                            "no": "2"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries should restrict or prevent disclosure of personal data of individuals, if required to do so by the adjudicating officer.",
-                    "no": "4",
                     "groups": [
                         "Data Fiduciaries"
                     ],
+                    "description": "Data fiduciaries should restrict or prevent disclosure of personal data of individuals, if required to do so by the adjudicating officer.",
+                    "title": "Right to be forgotten",
+                    "provisions": "Clause 20",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT",
                         "Customer Relations"
-                    ],
-                    "provisions": "Clause 20",
-                    "title": "Right to be forgotten"
+                    ]
                 }
-            }
+            },
+            "no": "4",
+            "title": "DATA PRINCIPALS \u2019 RIGHTS"
         },
         "5": {
-            "title": "TRANSFERRING DATA OUTSIDE INDIA",
-            "no": "5",
             "subjects": {
                 "1": {
+                    "no": "1",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business",
+                                "Architecture",
+                                "Security",
+                                "Catalog"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Identify where data resides and review the residency practices.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Architecture",
+                                "Catalog",
+                                "Classification"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Ensure local processing and storage of critical personal data.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Business",
+                                "Architecture",
+                                "Security"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Ensure local storage of sensitive personal data.",
-                            "no": "3"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries should: (i) store sensitive personal data in India (but they can transfer such data outside India under limited legal bases); (ii) store and process critical personal data only in India.",
-                    "no": "1",
                     "groups": [
                         "Data Fiduciaries",
                         "Data Processors"
                     ],
+                    "description": "Data fiduciaries should: (i) store sensitive personal data in India (but they can transfer such data outside India under limited legal bases); (ii) store and process critical personal data only in India.",
+                    "title": "Data localisation",
+                    "provisions": "Clause 33",
                     "functions": [
                         "Legal/Compliance",
                         "Technical and IT"
-                    ],
-                    "provisions": "Clause 33",
-                    "title": "Data localisation"
+                    ]
                 },
                 "2": {
+                    "no": "2",
                     "actions": {
                         "1": {
+                            "tags": [
+                                "Business",
+                                "Architecture",
+                                "Security"
+                            ],
+                            "no": "1",
                             "title": "Action 1",
                             "description": "Review processes for cross-border transfers.",
-                            "no": "1"
+                            "notes": ""
                         },
                         "2": {
+                            "tags": [
+                                "Security"
+                            ],
+                            "no": "2",
                             "title": "Action 2",
                             "description": "Develop specific processes to conduct transfer of sensitive personal data.",
-                            "no": "2"
+                            "notes": ""
                         },
                         "3": {
+                            "tags": [
+                                "Business",
+                                "Security",
+                                "Interaction"
+                            ],
+                            "no": "3",
                             "title": "Action 3",
                             "description": "Ensure that explicit consent is obtained before transferring data outside India.",
-                            "no": "3"
+                            "notes": ""
                         },
                         "4": {
+                            "tags": [
+                                "Business",
+                                "Documentation"
+                            ],
+                            "no": "4",
                             "title": "Action 4",
                             "description": "Prepare contracts/ intra-group schemes and have them approved by the DPA.",
-                            "no": "4"
+                            "notes": ""
                         },
                         "5": {
+                            "tags": [
+                                "Business",
+                                "Documentation"
+                            ],
+                            "no": "5",
                             "title": "Action 5",
                             "description": "Consider preparing a template for request for specific approval from the DPA.",
-                            "no": "5"
+                            "notes": ""
                         },
                         "6": {
+                            "tags": [
+                                "Business"
+                            ],
+                            "no": "6",
                             "title": "Action 6",
                             "description": "Formulate country-specific processes for cross-border transfers.",
-                            "no": "6"
+                            "notes": ""
                         }
                     },
-                    "description": "Data fiduciaries may transfer sensitive personal data outside India under limited bases, which include: contract/ intra-group transfers approved by the DPA; transfers to countries/ sectors with dequate protection (permitted by the central government); or transfers specifically approved by the DPA. \n\nTransfers would also require explicit consent of the data principal as a necessary precondition.",
-                    "no": "2",
                     "groups": [
                         "Data Fiduciaries",
                         "Data Processors"
                     ],
+                    "description": "Data fiduciaries may transfer sensitive personal data outside India under limited bases, which include: contract/ intra-group transfers approved by the DPA; transfers to countries/ sectors with dequate protection (permitted by the central government); or transfers specifically approved by the DPA. \n\nTransfers would also require explicit consent of the data principal as a necessary precondition.",
+                    "title": "Cross-border transfers",
+                    "provisions": "Clause 34",
                     "functions": [
                         "Legal/Compliance"
-                    ],
-                    "provisions": "Clause 34",
-                    "title": "Cross-border transfers"
+                    ]
                 }
-            }
+            },
+            "no": "5",
+            "title": "TRANSFERRING DATA OUTSIDE INDIA"
         }
     },
-    "overview": "The Personal Data Protection Bill, 2019 (\u201cPDP Bill\u201d)  was introduced in Parliament on 11 December 2019. If passed, the law will  require organisations to revamp their data-related processes and embed privacy within their systems and operations.  \n  \nAccountability is a key feature of the PDP Bill and organisations should be prepared to demonstrate compliance with its requirements. The PDP Bill proposes significant penalties for non-compliance that could go up to 4% of total worldwide turnover of an entity. \n  \nThe PDP Bill establishes a new regulator \u2013 the Data Protection Authority of India (\u201cDPA\u201d) \u2013 that is entrusted with enforcing this new law and ensuring compliance.  \n  \nThis checklist is intended to be a starting point for organisations to understand their obligations under the law. The checklist lists out compliance requirements and action items for organisations under five heads: (i)  understanding scope and preparing for the law; (ii) accountability; (iii) fair and lawful processing; (iv) data principals\u2019 rights; and (v) transferring data outside India. \n\nThe checklist indicates whether a set of actions is relevant for data fiduciaries (data controllers) (\u201cDFs\u201d) or data processors (\u201cDPs\u201d) or both. It also identifies the relevant teams that need to be involved in each set of actions: Legal/ Compliance, Public Relations, Technical and IT, HR and Customer Relations.\n"
+    "overview": "The Personal Data Protection Bill, 2019 (\u201cPDP Bill\u201d)  was introduced in Parliament on 11 December 2019. If passed, the law will  require organisations to revamp their data-related processes and embed privacy within their systems and operations.  \n  \nAccountability is a key feature of the PDP Bill and organisations should be prepared to demonstrate compliance with its requirements. The PDP Bill proposes significant penalties for non-compliance that could go up to 4% of total worldwide turnover of an entity. \n  \nThe PDP Bill establishes a new regulator \u2013 the Data Protection Authority of India (\u201cDPA\u201d) \u2013 that is entrusted with enforcing this new law and ensuring compliance.  \n  \nThis checklist is intended to be a starting point for organisations to understand their obligations under the law. The checklist lists out compliance requirements and action items for organisations under five heads: (i)  understanding scope and preparing for the law; (ii) accountability; (iii) fair and lawful processing; (iv) data principals\u2019 rights; and (v) transferring data outside India. \n\nThe checklist indicates whether a set of actions is relevant for data fiduciaries (data controllers) (\u201cDFs\u201d) or data processors (\u201cDPs\u201d) or both. It also identifies the relevant teams that need to be involved in each set of actions: Legal/ Compliance, Public Relations, Technical and IT, HR and Customer Relations.\n",
+    "title": "Ikigai PDP 2019 Checklist"
 }

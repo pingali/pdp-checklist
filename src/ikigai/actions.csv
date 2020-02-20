@@ -1,92 +1,94 @@
-Section,SectionTitle,Subject,SubjectTitle,ActionNumber,Action
+Section,SectionTitle,Subject,SubjectTitle,ActionNumber,Action,Business,People,Architecture,Security,Catalog,Classification,Access,Transformation,Documentation,Interaction,Notes
 1,UNDERSTANDING SCOPE AND PREPARING FOR THE LAW,1,"Scope
-",1,Identify if they process any personal data (i.e. data that relates to an individual or can identify an individual).
-1,,1,,2,"Understand if they determine the purpose and means of data processing. If so, they will be data fiduciaries. processing. If so, they will be data fiduciaries."
+",1,"Identify if they process any personal data (i.e. data that 
+relates to an individual or can identify an individual).",Y,,,,Y,Y,,,,,Metadata generation and management
+1,,1,,2,"Understand if they determine the purpose and means of data processing. If so, they will be data fiduciaries. processing. If so, they will be data fiduciaries.",Y,,,,Y,Y,,,,,
 1,,1,,3,"Understand if they are only processing data on behalf of another entity. In that case, they may be data processors.
-"
-1,,1,,4,Identify if their data processing activities are exempted under the law.
-1,,1,,5,Understand if they are ‘significant data fiduciaries’ (notified by the DPA). 
+",Y,,,,Y,Y,,,,,
+1,,1,,4,Identify if their data processing activities are exempted under the law.,Y,,,,Y,Y,,,,,
+1,,1,,5,Understand if they are ‘significant data fiduciaries’ (notified by the DPA). ,Y,,,,,,,,Y,,May require filing with the DPA
 1,,2,Territorial Scope,1,"Identify if any part of their data processing activity takes place in India.
-"
-1,,2,,2,"If they process data outside India, identify if Indian citizens are involved or if the activity is conducted in connection with any business in India or offering of goods and services in India."
-1,,3,Data Inventory,1,"Identify all data processed and held within different departments, including details such as its source, who it will be shared with, who has access to it within the organisation, etc."
-1,,3,,2,Create a comprehensive data inventory using this information.
-1,,3,,3,Consider using automated privacy tools for preparing a data inventory.
-1,,3,,4,Develop processes for updating the inventory periodically.
-1,,3,,5,"Understand different types of data with the organisation, such as ‘personal data’, ‘sensitive personal data’, ‘critical personal data’ and ‘non-personal data’."
-1,,4,Non-personal Data,1,Understand types of non-personal data they hold and process.
-1,,4,,2,Develop processes to respond to government directions for non-personal data.
-2,ACCOUNTABILITY,1,Privacy by design policy,1,Develop a privacy by design policy.
-2,,1,,2,Develop procedures to identify risk of harm to data principals and formulate mitigation strategies.
-2,,1,,3,"Ensure data protection obligations (such as purpose limitation, collection limitation, data quality and data storage) are reflected in business practices and in IT systems."
-2,,1,,4,Employ technology that is in accordance with commercially accepted or certified standards.
-2,,1,,5,Develop and implement processes to train personnel across all levels to ensure they understand data protection principles and PDP Bill requirements.
-2,,1,,6,Ensure privacy features are embedded into all parts of a data life cycle.
-2,,2,Data Protection Impact Assessment,1,Create internal processes to ensure that privacy risk is understood as a business risk in the development of a product and the appropriate teams are flagged when a product involves an activity that requires a DPIA.
-2,,2,,2,Develop processes for conducting DPIAs and assign responsibility to relevant personnel.
-2,,2,,3,Develop templates for DPIA reports.
-2,,3,Security safeguards,1,Develop procedures to assess risks associated with processing and the likelihood and severity of harm to individuals from their data-processing activities.
-2,,3,,2,Develop procedures to mitigate those risks using appropriate security safeguards.
-2,,3,,3,"Include appropriate techniques such as de-identification, encryption, identity and access management, data loss prevention, as required."
-2,,3,,4,Undertake review of security safeguards periodically.
-2,,3,,5,Ensure third party contracts have appropriate security controls.
-2,,3,,6,Review security safeguards periodically and maintain a record of the review.
-2,,4,Data Audits,1,Develop processes to enable third party audits.
-2,,4,,2,Develop internal processes to demonstrate compliance with obligations under the PDP Bill.
-2,,5,Grievance redressal,1,Create mechanisms for data principals to raise grievances with the organisation and receive timely responses.
-2,,5,,2,Designate officers who will be the points of contact for such grievances.
-2,,6,Breach notification,1,Develop data breach response procedures to notify the DPA as soon as possible in case of a breach.
-2,,6,,2,Put in place procedures to assess situations exposing data principals to risk of harm.
-2,,6,,3,Prepare templates for notifying the DPA and data principals (when directed by the DPA).
-2,,6,,4,Review contracts with third parties and processors to ensure the fiduciary will be able to notify the DPA in time.
-2,,6,,5,Review liability provisions in third party contracts for breaches caused by third parties.
-2,,6,,6,Review insurance coverage for data breaches.
-2,,7,Personnel,1,Ensure that senior management is aware of the compliance requirements and impact of non-compliance.
-2,,7,,2,Allocate budget for data protection compliance.
-2,,7,,3,Consider having clear lines of reporting and allocation of responsibility for data governance within the organisation.
-2,,7,,4,Implement programmes to train personnel on data protection compliance requirements under the law and concepts such as harm and risk to individuals as a result of processing.
-2,,8,Data Protection Officer,1,Understand if they are a significant data fiduciary or are otherwise required to appoint a data protection officer.
-2,,8,,2,"If required, appoint a data protection officer as the point-of-contact for all data compliance related issues."
-2,,8,,3,Ensure that the data protection officer resides in India.
-3,FAIR AND LAWFUL PROCESSING,1,Basis for processing personal data,1,Identify and document a legal basis for processing any category of data.
-3,,1,,2,"Before relying on consent, understand if any of the other bases are applicable. For instance, if personal data has to be shared under a law or for compliance with a court order, separate consent would not be required."
-3,,1,,3,Explain the bases of processing in their privacy policies/ notices.
-3,,2,Consent,1,Ensure that consent is sought before processing.
-3,,2,,2,Determine what makes consent ‘explicit’.
-3,,2,,3,Maintain clear records of consent obtained from data principals to be able to demonstrate that consent was given at the time of processing.
-3,,2,,4,Ensure that provision of goods or services or performance of a contract is not conditional on consent to processing any personal data that is not necessary for that purpose.
-3,,2,,5,"Ensure that consent is free, specific and clear."
-3,,2,,6,"Review existing consents to ensure compliance with the new requirements and where non-compliant, draft new consent forms to seek fresh consent."
-3,,2,,7,Create mechanisms to allow data principals to withdraw consent.
-3,,2,,8,Create mechanisms to allow data principals to give or withdraw consent through consent managers.
-3,,3,Privacy Notice,1,Review and update privacy notices to make them PDP Bill-compliant (or develop privacy notices where they do not exist).
-3,,3,,2,Develop processes to provide information in a clear and easily comprehensive form.
-3,,4,‘Reasonable purpose’ as a legal basis for processing,1,Understand if processing is for any of the reasonable purposes specified by the DPA.
-3,,4,,2,"Assess whether processing is ‘necessary’ for a listed reasonable purpose, having regard to factors such as interest of the data fiduciary in that processing, any public interest in processing, and the reasonable expectation of the data principal with respect to the processing."
-3,,4,,3,Record the assessment to be able to demonstrate compliance.
-3,,5,Children's Data,1,Identify proportion of personal data likely to be of children and assess possibility of harm to children arising out of processing.
-3,,5,,2,Develop appropriate methods to verify age.
-3,,5,,3,Create forms for seeking parental consent.
-4,DATA PRINCIPALS ’ RIGHTS,1,Right to confirmation and access,1,Develop processes to allow individuals to make such requests.
-4,,1,,2,"Create templates for summaries of personal data and processing activities to be provided to data principals, upon request."
-4,,1,,3,Consider automated means to provide confirmation and summary of processing activities to data principals.
-4,,1,,4,Maintain a list of entities with whom the personal data of is shared.
-4,,2,Right to seek correction,1,"Develop internal processes that enable correction of inaccurate data, completion of incomplete data, and update old data in a timely manner."
-4,,2,,2,Create a system whereby relevant stakeholders are notified of any change to the data pursuant to such requests.
-4,,2,,3,Understand the legal mechanisms under which these rights can be resisted.
-4,,2,,4,Develop templates which list the reasons for denial of such requests.
-4,,3,Right to data portability,1,Classify personal data according to automated processing and non-automated processing.
-4,,3,,2,Assess different machine-readable formats.
-4,,3,,3,Develop processes to enable secure data transfer to other data fiduciaries.
-4,,3,,4,Understand the legal mechanisms under which such requests can be resisted
-4,,4,Right to be forgotten,1,Develop processes to determine the relevance of the data to the purpose of collection.
-4,,4,,2,Inform other stakeholders that the data principal has requested the erasure of personal data.
-5,TRANSFERRING DATA OUTSIDE INDIA,1,Data localisation,1,Identify where data resides and review the residency practices.
-5,,1,,2,Ensure local processing and storage of critical personal data.
-5,,1,,3,Ensure local storage of sensitive personal data.
-5,,2,Cross-border transfers,1,Review processes for cross-border transfers.
-5,,2,,2,Develop specific processes to conduct transfer of sensitive personal data.
-5,,2,,3,Ensure that explicit consent is obtained before transferring data outside India.
-5,,2,,4,Prepare contracts/ intra-group schemes and have them approved by the DPA.
-5,,2,,5,Consider preparing a template for request for specific approval from the DPA.
-5,,2,,6,Formulate country-specific processes for cross-border transfers.
+",Y,,,,,,,,,,
+1,,2,,2,"If they process data outside India, identify if Indian citizens are involved or if the activity is conducted in connection with any business in India or offering of goods and services in India.",Y,,,,,Y,,,,,
+1,,3,Data Inventory,1,"Identify all data processed and held within different departments, including details such as its source, who it will be shared with, who has access to it within the organisation, etc.",,,,,Y,,Y,,,,
+1,,3,,2,Create a comprehensive data inventory using this information.,,,,,Y,,,,,,
+1,,3,,3,Consider using automated privacy tools for preparing a data inventory.,,,,,Y,,,Y,,,
+1,,3,,4,Develop processes for updating the inventory periodically.,,,,,Y,,,,,,
+1,,3,,5,"Understand different types of data with the organisation, such as ‘personal data’, ‘sensitive personal data’, ‘critical personal data’ and ‘non-personal data’.",,,,,,Y,,,,,
+1,,4,Non-personal Data,1,Understand types of non-personal data they hold and process.,,,,,,Y,,,,,
+1,,4,,2,Develop processes to respond to government directions for non-personal data.,,,,,,,,Y,,,
+2,ACCOUNTABILITY,1,Privacy by design policy,1,Develop a privacy by design policy.,,,Y,,,,,,,,Principles of privacy by design https://medium.com/searchencrypt/7-principles-of-privacy-by-design-8a0f16d1f9ce
+2,,1,,2,Develop procedures to identify risk of harm to data principals and formulate mitigation strategies.,,,Y,,,Y,Y,,,,Leaks/errors and their propagation
+2,,1,,3,"Ensure data protection obligations (such as purpose limitation, collection limitation, data quality and data storage) are reflected in business practices and in IT systems.",,,Y,,,Y,,,,,Classification by quality
+2,,1,,4,Employ technology that is in accordance with commercially accepted or certified standards.,Y,,,,,,,,,,
+2,,1,,5,Develop and implement processes to train personnel across all levels to ensure they understand data protection principles and PDP Bill requirements.,Y,,,,,,,,,,
+2,,1,,6,Ensure privacy features are embedded into all parts of a data life cycle.,Y,,Y,,,,Y,,,,
+2,,2,Data Protection Impact Assessment,1,Create internal processes to ensure that privacy risk is understood as a business risk in the development of a product and the appropriate teams are flagged when a product involves an activity that requires a DPIA.,Y,,,,,,,,,,
+2,,2,,2,Develop processes for conducting DPIAs and assign responsibility to relevant personnel.,Y,,,,,,,,,,
+2,,2,,3,Develop templates for DPIA reports.,,,,,,,,,Y,,
+2,,3,Security safeguards,1,Develop procedures to assess risks associated with processing and the likelihood and severity of harm to individuals from their data-processing activities.,Y,,Y,,,,,,Y,,
+2,,3,,2,Develop procedures to mitigate those risks using appropriate security safeguards.,,,Y,,,,Y,Y,,,
+2,,3,,3,"Include appropriate techniques such as de-identification, encryption, identity and access management, data loss prevention, as required.",,,Y,,,,Y,Y,,,
+2,,3,,4,Undertake review of security safeguards periodically.,Y,,,,,,,,,,
+2,,3,,5,Ensure third party contracts have appropriate security controls.,Y,,,,,,,,,,
+2,,3,,6,Review security safeguards periodically and maintain a record of the review.,Y,,,Y,,,,,Y,,
+2,,4,Data Audits,1,Develop processes to enable third party audits.,,,,,Y,Y,,,Y,,
+2,,4,,2,Develop internal processes to demonstrate compliance with obligations under the PDP Bill.,,,,,,,,,Y,,
+2,,5,Grievance redressal,1,Create mechanisms for data principals to raise grievances with the organisation and receive timely responses.,Y,,,,,,,,,Y,
+2,,5,,2,Designate officers who will be the points of contact for such grievances.,Y,,,,,,,,,,
+2,,6,Breach notification,1,Develop data breach response procedures to notify the DPA as soon as possible in case of a breach.,,,,Y,,,,,Y,,
+2,,6,,2,Put in place procedures to assess situations exposing data principals to risk of harm.,,,Y,,Y,,,,,,
+2,,6,,3,Prepare templates for notifying the DPA and data principals (when directed by the DPA).,Y,,,,,,,,Y,,
+2,,6,,4,Review contracts with third parties and processors to ensure the fiduciary will be able to notify the DPA in time.,Y,,,,,,,,,,
+2,,6,,5,Review liability provisions in third party contracts for breaches caused by third parties.,Y,,,,,,,,,,
+2,,6,,6,Review insurance coverage for data breaches.,Y,,,Y,,,,,,,
+2,,7,Personnel,1,Ensure that senior management is aware of the compliance requirements and impact of non-compliance.,,,,,,,,,Y,,
+2,,7,,2,Allocate budget for data protection compliance.,Y,,,,,,,,,,
+2,,7,,3,Consider having clear lines of reporting and allocation of responsibility for data governance within the organisation.,,,Y,Y,,,,,Y,,
+2,,7,,4,Implement programmes to train personnel on data protection compliance requirements under the law and concepts such as harm and risk to individuals as a result of processing.,Y,,,,,,,,,,
+2,,8,Data Protection Officer,1,Understand if they are a significant data fiduciary or are otherwise required to appoint a data protection officer.,,Y,,,,,,,,,
+2,,8,,2,"If required, appoint a data protection officer as the point-of-contact for all data compliance related issues.",,Y,,,,,,,,,
+2,,8,,3,Ensure that the data protection officer resides in India.,Y,Y,,,,,,,,,
+3,FAIR AND LAWFUL PROCESSING,1,Basis for processing personal data,1,Identify and document a legal basis for processing any category of data.,Y,,,,,,,,Y,Y,
+3,,1,,2,"Before relying on consent, understand if any of the other bases are applicable. For instance, if personal data has to be shared under a law or for compliance with a court order, separate consent would not be required.",Y,,,,,,,,Y,Y,
+3,,1,,3,Explain the bases of processing in their privacy policies/ notices.,Y,,,,,,,,,Y,
+3,,2,Consent,1,Ensure that consent is sought before processing.,Y,,,,,,,,,,
+3,,2,,2,Determine what makes consent ‘explicit’.,Y,,,,,,,,,,
+3,,2,,3,Maintain clear records of consent obtained from data principals to be able to demonstrate that consent was given at the time of processing.,Y,,,,,,,,,Y,
+3,,2,,4,Ensure that provision of goods or services or performance of a contract is not conditional on consent to processing any personal data that is not necessary for that purpose.,Y,,,,,,,,,,
+3,,2,,5,"Ensure that consent is free, specific and clear.",Y,,,,,,,,,,
+3,,2,,6,"Review existing consents to ensure compliance with the new requirements and where non-compliant, draft new consent forms to seek fresh consent.",Y,,,,,,,,,Y,
+3,,2,,7,Create mechanisms to allow data principals to withdraw consent.,Y,,Y,,Y,,Y,Y,,,
+3,,2,,8,Create mechanisms to allow data principals to give or withdraw consent through consent managers.,Y,,,,,,,,,,
+3,,3,Privacy Notice,1,Review and update privacy notices to make them PDP Bill-compliant (or develop privacy notices where they do not exist).,Y,,,,,,,,,,
+3,,3,,2,Develop processes to provide information in a clear and easily comprehensive form.,,,,,,,,,,,
+3,,4,‘Reasonable purpose’ as a legal basis for processing,1,Understand if processing is for any of the reasonable purposes specified by the DPA.,Y,,,,,,,,,,
+3,,4,,2,"Assess whether processing is ‘necessary’ for a listed reasonable purpose, having regard to factors such as interest of the data fiduciary in that processing, any public interest in processing, and the reasonable expectation of the data principal with respect to the processing.",Y,,,,,,,,,,
+3,,4,,3,Record the assessment to be able to demonstrate compliance.,Y,,,,,,,,Y,,
+3,,5,Children's Data,1,Identify proportion of personal data likely to be of children and assess possibility of harm to children arising out of processing.,Y,,,,,,,,,,
+3,,5,,2,Develop appropriate methods to verify age.,Y,,,,,Y,,,,,
+3,,5,,3,Create forms for seeking parental consent.,,,,,,,,,,,
+4,DATA PRINCIPALS ’ RIGHTS,1,Right to confirmation and access,1,Develop processes to allow individuals to make such requests.,Y,,,Y,Y,,,,Y,,
+4,,1,,2,"Create templates for summaries of personal data and processing activities to be provided to data principals, upon request.",Y,,,Y,Y,,,,Y,,
+4,,1,,3,Consider automated means to provide confirmation and summary of processing activities to data principals.,Y,,,,,,,,,,
+4,,1,,4,Maintain a list of entities with whom the personal data of is shared.,Y,,Y,Y,Y,,Y,,Y,,
+4,,2,Right to seek correction,1,"Develop internal processes that enable correction of inaccurate data, completion of incomplete data, and update old data in a timely manner.",Y,,,,,,,,,,
+4,,2,,2,Create a system whereby relevant stakeholders are notified of any change to the data pursuant to such requests.,Y,,,,Y,,,,Y,,
+4,,2,,3,Understand the legal mechanisms under which these rights can be resisted.,Y,,,,,,,,,,
+4,,2,,4,Develop templates which list the reasons for denial of such requests.,Y,,,,,,,,Y,,
+4,,3,Right to data portability,1,Classify personal data according to automated processing and non-automated processing.,"
+",,Y,,Y,Y,,,,,
+4,,3,,2,Assess different machine-readable formats.,,,Y,,Y,Y,,Y,,,
+4,,3,,3,Develop processes to enable secure data transfer to other data fiduciaries.,,,Y,Y,Y,,,Y,,,
+4,,3,,4,Understand the legal mechanisms under which such requests can be resisted,Y,,,,,,,,,,
+4,,4,Right to be forgotten,1,Develop processes to determine the relevance of the data to the purpose of collection.,Y,,Y,,,,,,Y,,
+4,,4,,2,Inform other stakeholders that the data principal has requested the erasure of personal data.,,,Y,Y,Y,,,,Y,,
+5,TRANSFERRING DATA OUTSIDE INDIA,1,Data localisation,1,Identify where data resides and review the residency practices.,Y,,Y,Y,Y,,,,,,
+5,,1,,2,Ensure local processing and storage of critical personal data.,,,Y,,Y,Y,,,,,
+5,,1,,3,Ensure local storage of sensitive personal data.,Y,,Y,Y,,,,,,,
+5,,2,Cross-border transfers,1,Review processes for cross-border transfers.,Y,,Y,Y,,,,,,,
+5,,2,,2,Develop specific processes to conduct transfer of sensitive personal data.,,,,Y,,,,,,,
+5,,2,,3,Ensure that explicit consent is obtained before transferring data outside India.,Y,,,Y,,,,,,Y,
+5,,2,,4,Prepare contracts/ intra-group schemes and have them approved by the DPA.,Y,,,,,,,,Y,,
+5,,2,,5,Consider preparing a template for request for specific approval from the DPA.,Y,,,,,,,,Y,,
+5,,2,,6,Formulate country-specific processes for cross-border transfers.,Y,,,,,,,,,,

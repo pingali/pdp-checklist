@@ -82,11 +82,19 @@ def extract():
         actionnum = entry['ActionNumber'].strip()
         action    = entry['Action'].strip()
 
+        tags = "Business,People,Architecture,Security,Catalog,Classification,Access,Transformation,Documentation,Interaction"
+        tags = tags.split(",") 
+        tags = [t for t in tags if entry.get(t,'').lower() == 'y']
+
+        notes = entry.get('Notes', '')
+
         actions = checklist[section]['subjects'][subject]['actions']
         actions[actionnum] = {
             'no': actionnum,
             'title': "Action {}".format(actionnum),
             'description': action,
+            'tags': tags,
+            'notes': notes
         }
         
     overview = {
@@ -123,11 +131,12 @@ def _markdown(checklist):
             mdFile.new_paragraph("Functions: " + ", ".join(subject['functions']))
             mdFile.new_paragraph("Groups: " + ", ".join(subject['groups']))
 
-            actions = [['No','Description', 'Check']]
-            actions += [[a['no'], a['title'], a['description']] for a in subject['actions'].values()]
+            actions = [['No','Title', 'Description', 'Tags', 'Check']]
+            actions += [[a['no'], a['title'], a['description'], ",".join(a['tags']),''] for a in subject['actions'].values()]
             rows = len(actions) 
             actions = flatten(actions)
-            mdFile.new_table(columns=3, rows=rows,
+            mdFile.new_table(columns=5,
+                             rows=rows,
                              text=actions,
                              text_align='left')
 

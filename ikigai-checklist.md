@@ -29,13 +29,14 @@ Reference: Clauses 2, 26
 Functions: Legal/Compliance
 
 Groups: Data Fiduciaries, Data Processors
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Identify if they process any personal data (i.e. data that relates to an individual or can identify an individual).|
-|2|Action 2|Understand if they determine the purpose and means of data processing. If so, they will be data fiduciaries. processing. If so, they will be data fiduciaries.|
-|3|Action 3|Understand if they are only processing data on behalf of another entity. In that case, they may be data processors.|
-|4|Action 4|Identify if their data processing activities are exempted under the law.|
-|5|Action 5|Understand if they are ‘significant data fiduciaries’ (notified by the DPA).|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Identify if they process any personal data (i.e. data that 
+relates to an individual or can identify an individual).|Business,Catalog,Classification||
+|2|Action 2|Understand if they determine the purpose and means of data processing. If so, they will be data fiduciaries. processing. If so, they will be data fiduciaries.|Business,Catalog,Classification||
+|3|Action 3|Understand if they are only processing data on behalf of another entity. In that case, they may be data processors.|Business,Catalog,Classification||
+|4|Action 4|Identify if their data processing activities are exempted under the law.|Business,Catalog,Classification||
+|5|Action 5|Understand if they are ‘significant data fiduciaries’ (notified by the DPA).|Business,Documentation||
 
 ## Territorial Scope
 
@@ -51,10 +52,10 @@ Reference: Clauses 2, 37
 Functions: Legal/Compliance
 
 Groups: Data Fiduciaries, Data Processors
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Identify if any part of their data processing activity takes place in India.|
-|2|Action 2|If they process data outside India, identify if Indian citizens are involved or if the activity is conducted in connection with any business in India or offering of goods and services in India.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Identify if any part of their data processing activity takes place in India.|Business||
+|2|Action 2|If they process data outside India, identify if Indian citizens are involved or if the activity is conducted in connection with any business in India or offering of goods and services in India.|Business,Classification||
 
 ## Data Inventory
 
@@ -68,13 +69,13 @@ Reference: Clause 28
 Functions: Legal/Compliance, Technical and IT, Customer Relations, HR
 
 Groups: Data Fiduciaries, Data Processors
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Identify all data processed and held within different departments, including details such as its source, who it will be shared with, who has access to it within the organisation, etc.|
-|2|Action 2|Create a comprehensive data inventory using this information.|
-|3|Action 3|Consider using automated privacy tools for preparing a data inventory.|
-|4|Action 4|Develop processes for updating the inventory periodically.|
-|5|Action 5|Understand different types of data with the organisation, such as ‘personal data’, ‘sensitive personal data’, ‘critical personal data’ and ‘non-personal data’.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Identify all data processed and held within different departments, including details such as its source, who it will be shared with, who has access to it within the organisation, etc.|Catalog,Access||
+|2|Action 2|Create a comprehensive data inventory using this information.|Catalog||
+|3|Action 3|Consider using automated privacy tools for preparing a data inventory.|Catalog,Transformation||
+|4|Action 4|Develop processes for updating the inventory periodically.|Catalog||
+|5|Action 5|Understand different types of data with the organisation, such as ‘personal data’, ‘sensitive personal data’, ‘critical personal data’ and ‘non-personal data’.|Classification||
 
 ## Non-personal Data
 
@@ -86,10 +87,10 @@ Reference: Clause 91
 Functions: Legal/Compliance
 
 Groups: Data Fiduciaries, Data Processors
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Understand types of non-personal data they hold and process.|
-|2|Action 2|Develop processes to respond to government directions for non-personal data.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Understand types of non-personal data they hold and process.|Classification||
+|2|Action 2|Develop processes to respond to government directions for non-personal data.|Transformation||
 
 # ACCOUNTABILITY
 
@@ -103,14 +104,14 @@ Reference: Clause 22
 Functions: Legal/Compliance, Technical and IT
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Develop a privacy by design policy.|
-|2|Action 2|Develop procedures to identify risk of harm to data principals and formulate mitigation strategies.|
-|3|Action 3|Ensure data protection obligations (such as purpose limitation, collection limitation, data quality and data storage) are reflected in business practices and in IT systems.|
-|4|Action 4|Employ technology that is in accordance with commercially accepted or certified standards.|
-|5|Action 5|Develop and implement processes to train personnel across all levels to ensure they understand data protection principles and PDP Bill requirements.|
-|6|Action 6|Ensure privacy features are embedded into all parts of a data life cycle.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Develop a privacy by design policy.|Architecture||
+|2|Action 2|Develop procedures to identify risk of harm to data principals and formulate mitigation strategies.|Architecture,Classification,Access||
+|3|Action 3|Ensure data protection obligations (such as purpose limitation, collection limitation, data quality and data storage) are reflected in business practices and in IT systems.|Architecture,Classification||
+|4|Action 4|Employ technology that is in accordance with commercially accepted or certified standards.|Business||
+|5|Action 5|Develop and implement processes to train personnel across all levels to ensure they understand data protection principles and PDP Bill requirements.|Business||
+|6|Action 6|Ensure privacy features are embedded into all parts of a data life cycle.|Business,Architecture,Access||
 
 ## Data Protection Impact Assessment
 
@@ -123,11 +124,11 @@ Reference: Clause 27
 Functions: Legal/Compliance, Technical and IT
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Create internal processes to ensure that privacy risk is understood as a business risk in the development of a product and the appropriate teams are flagged when a product involves an activity that requires a DPIA.|
-|2|Action 2|Develop processes for conducting DPIAs and assign responsibility to relevant personnel.|
-|3|Action 3|Develop templates for DPIA reports.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Create internal processes to ensure that privacy risk is understood as a business risk in the development of a product and the appropriate teams are flagged when a product involves an activity that requires a DPIA.|Business||
+|2|Action 2|Develop processes for conducting DPIAs and assign responsibility to relevant personnel.|Business||
+|3|Action 3|Develop templates for DPIA reports.|Documentation||
 
 ## Security safeguards
 
@@ -140,14 +141,14 @@ Reference: Clause 24
 Functions: Legal/Compliance, Technical and IT
 
 Groups: Data Fiduciaries, Data Processors
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Develop procedures to assess risks associated with processing and the likelihood and severity of harm to individuals from their data-processing activities.|
-|2|Action 2|Develop procedures to mitigate those risks using appropriate security safeguards.|
-|3|Action 3|Include appropriate techniques such as de-identification, encryption, identity and access management, data loss prevention, as required.|
-|4|Action 4|Undertake review of security safeguards periodically.|
-|5|Action 5|Ensure third party contracts have appropriate security controls.|
-|6|Action 6|Review security safeguards periodically and maintain a record of the review.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Develop procedures to assess risks associated with processing and the likelihood and severity of harm to individuals from their data-processing activities.|Business,Architecture,Documentation||
+|2|Action 2|Develop procedures to mitigate those risks using appropriate security safeguards.|Architecture,Access,Transformation||
+|3|Action 3|Include appropriate techniques such as de-identification, encryption, identity and access management, data loss prevention, as required.|Architecture,Access,Transformation||
+|4|Action 4|Undertake review of security safeguards periodically.|Business||
+|5|Action 5|Ensure third party contracts have appropriate security controls.|Business||
+|6|Action 6|Review security safeguards periodically and maintain a record of the review.|Business,Security,Documentation||
 
 ## Data Audits
 
@@ -160,10 +161,10 @@ Reference: Clause 29
 Functions: Legal/Compliance, Technical and IT
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Develop processes to enable third party audits.|
-|2|Action 2|Develop internal processes to demonstrate compliance with obligations under the PDP Bill.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Develop processes to enable third party audits.|Catalog,Classification,Documentation||
+|2|Action 2|Develop internal processes to demonstrate compliance with obligations under the PDP Bill.|Documentation||
 
 ## Grievance redressal
 
@@ -175,10 +176,10 @@ Reference: Clause 32
 Functions: Legal/Compliance, Technical and IT, Customer Relations
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Create mechanisms for data principals to raise grievances with the organisation and receive timely responses.|
-|2|Action 2|Designate officers who will be the points of contact for such grievances.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Create mechanisms for data principals to raise grievances with the organisation and receive timely responses.|Business,Interaction||
+|2|Action 2|Designate officers who will be the points of contact for such grievances.|Business||
 
 ## Breach notification
 
@@ -190,14 +191,14 @@ Reference: Clause 25
 Functions: Legal/Compliance, Technical and IT, Customer Relations, Public Relations
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Develop data breach response procedures to notify the DPA as soon as possible in case of a breach.|
-|2|Action 2|Put in place procedures to assess situations exposing data principals to risk of harm.|
-|3|Action 3|Prepare templates for notifying the DPA and data principals (when directed by the DPA).|
-|4|Action 4|Review contracts with third parties and processors to ensure the fiduciary will be able to notify the DPA in time.|
-|5|Action 5|Review liability provisions in third party contracts for breaches caused by third parties.|
-|6|Action 6|Review insurance coverage for data breaches.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Develop data breach response procedures to notify the DPA as soon as possible in case of a breach.|Security,Documentation||
+|2|Action 2|Put in place procedures to assess situations exposing data principals to risk of harm.|Architecture,Catalog||
+|3|Action 3|Prepare templates for notifying the DPA and data principals (when directed by the DPA).|Business,Documentation||
+|4|Action 4|Review contracts with third parties and processors to ensure the fiduciary will be able to notify the DPA in time.|Business||
+|5|Action 5|Review liability provisions in third party contracts for breaches caused by third parties.|Business||
+|6|Action 6|Review insurance coverage for data breaches.|Business,Security||
 
 ## Personnel
 
@@ -209,12 +210,12 @@ Reference: Clause 22
 Functions: Legal/Compliance
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Ensure that senior management is aware of the compliance requirements and impact of non-compliance.|
-|2|Action 2|Allocate budget for data protection compliance.|
-|3|Action 3|Consider having clear lines of reporting and allocation of responsibility for data governance within the organisation.|
-|4|Action 4|Implement programmes to train personnel on data protection compliance requirements under the law and concepts such as harm and risk to individuals as a result of processing.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Ensure that senior management is aware of the compliance requirements and impact of non-compliance.|Documentation||
+|2|Action 2|Allocate budget for data protection compliance.|Business||
+|3|Action 3|Consider having clear lines of reporting and allocation of responsibility for data governance within the organisation.|Architecture,Security,Documentation||
+|4|Action 4|Implement programmes to train personnel on data protection compliance requirements under the law and concepts such as harm and risk to individuals as a result of processing.|Business||
 
 ## Data Protection Officer
 
@@ -226,11 +227,11 @@ Reference: Clause 30
 Functions: Legal/Compliance
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Understand if they are a significant data fiduciary or are otherwise required to appoint a data protection officer.|
-|2|Action 2|If required, appoint a data protection officer as the point-of-contact for all data compliance related issues.|
-|3|Action 3|Ensure that the data protection officer resides in India.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Understand if they are a significant data fiduciary or are otherwise required to appoint a data protection officer.|People||
+|2|Action 2|If required, appoint a data protection officer as the point-of-contact for all data compliance related issues.|People||
+|3|Action 3|Ensure that the data protection officer resides in India.|Business,People||
 
 # FAIR AND LAWFUL PROCESSING
 
@@ -244,11 +245,11 @@ Reference: Chapter III
 Functions: Legal/Compliance, Customer Relations
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Identify and document a legal basis for processing any category of data.|
-|2|Action 2|Before relying on consent, understand if any of the other bases are applicable. For instance, if personal data has to be shared under a law or for compliance with a court order, separate consent would not be required.|
-|3|Action 3|Explain the bases of processing in their privacy policies/ notices.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Identify and document a legal basis for processing any category of data.|Business,Documentation,Interaction||
+|2|Action 2|Before relying on consent, understand if any of the other bases are applicable. For instance, if personal data has to be shared under a law or for compliance with a court order, separate consent would not be required.|Business,Documentation,Interaction||
+|3|Action 3|Explain the bases of processing in their privacy policies/ notices.|Business,Interaction||
 
 ## Consent
 
@@ -261,16 +262,16 @@ Reference: Clauses 11, 23
 Functions: Legal/Compliance, Technical and IT, Customer Relations
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Ensure that consent is sought before processing.|
-|2|Action 2|Determine what makes consent ‘explicit’.|
-|3|Action 3|Maintain clear records of consent obtained from data principals to be able to demonstrate that consent was given at the time of processing.|
-|4|Action 4|Ensure that provision of goods or services or performance of a contract is not conditional on consent to processing any personal data that is not necessary for that purpose.|
-|5|Action 5|Ensure that consent is free, specific and clear.|
-|6|Action 6|Review existing consents to ensure compliance with the new requirements and where non-compliant, draft new consent forms to seek fresh consent.|
-|7|Action 7|Create mechanisms to allow data principals to withdraw consent.|
-|8|Action 8|Create mechanisms to allow data principals to give or withdraw consent through consent managers.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Ensure that consent is sought before processing.|Business||
+|2|Action 2|Determine what makes consent ‘explicit’.|Business||
+|3|Action 3|Maintain clear records of consent obtained from data principals to be able to demonstrate that consent was given at the time of processing.|Business,Interaction||
+|4|Action 4|Ensure that provision of goods or services or performance of a contract is not conditional on consent to processing any personal data that is not necessary for that purpose.|Business||
+|5|Action 5|Ensure that consent is free, specific and clear.|Business||
+|6|Action 6|Review existing consents to ensure compliance with the new requirements and where non-compliant, draft new consent forms to seek fresh consent.|Business,Interaction||
+|7|Action 7|Create mechanisms to allow data principals to withdraw consent.|Business,Architecture,Catalog,Access,Transformation||
+|8|Action 8|Create mechanisms to allow data principals to give or withdraw consent through consent managers.|Business||
 
 ## Privacy Notice
 
@@ -282,10 +283,10 @@ Reference: Clauses 7, 23
 Functions: Legal/Compliance, Technical and IT, Customer Relations
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Review and update privacy notices to make them PDP Bill-compliant (or develop privacy notices where they do not exist).|
-|2|Action 2|Develop processes to provide information in a clear and easily comprehensive form.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Review and update privacy notices to make them PDP Bill-compliant (or develop privacy notices where they do not exist).|Business||
+|2|Action 2|Develop processes to provide information in a clear and easily comprehensive form.|||
 
 ## ‘Reasonable purpose’ as a legal basis for processing
 
@@ -297,11 +298,11 @@ Reference: Clause 14
 Functions: Legal/Compliance, Customer Relations
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Understand if processing is for any of the reasonable purposes specified by the DPA.|
-|2|Action 2|Assess whether processing is ‘necessary’ for a listed reasonable purpose, having regard to factors such as interest of the data fiduciary in that processing, any public interest in processing, and the reasonable expectation of the data principal with respect to the processing.|
-|3|Action 3|Record the assessment to be able to demonstrate compliance.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Understand if processing is for any of the reasonable purposes specified by the DPA.|Business||
+|2|Action 2|Assess whether processing is ‘necessary’ for a listed reasonable purpose, having regard to factors such as interest of the data fiduciary in that processing, any public interest in processing, and the reasonable expectation of the data principal with respect to the processing.|Business||
+|3|Action 3|Record the assessment to be able to demonstrate compliance.|Business,Documentation||
 
 ## Children's Data
 
@@ -313,11 +314,11 @@ Reference: Clause 16
 Functions: Legal/Compliance, Technical and IT, Customer Relations
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Identify proportion of personal data likely to be of children and assess possibility of harm to children arising out of processing.|
-|2|Action 2|Develop appropriate methods to verify age.|
-|3|Action 3|Create forms for seeking parental consent.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Identify proportion of personal data likely to be of children and assess possibility of harm to children arising out of processing.|Business||
+|2|Action 2|Develop appropriate methods to verify age.|Business,Classification||
+|3|Action 3|Create forms for seeking parental consent.|||
 
 # DATA PRINCIPALS ’ RIGHTS
 
@@ -331,12 +332,12 @@ Reference: Clause 17
 Functions: Legal/Compliance, Technical and IT, Customer Relations
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Develop processes to allow individuals to make such requests.|
-|2|Action 2|Create templates for summaries of personal data and processing activities to be provided to data principals, upon request.|
-|3|Action 3|Consider automated means to provide confirmation and summary of processing activities to data principals.|
-|4|Action 4|Maintain a list of entities with whom the personal data of is shared.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Develop processes to allow individuals to make such requests.|Business,Security,Catalog,Documentation||
+|2|Action 2|Create templates for summaries of personal data and processing activities to be provided to data principals, upon request.|Business,Security,Catalog,Documentation||
+|3|Action 3|Consider automated means to provide confirmation and summary of processing activities to data principals.|Business||
+|4|Action 4|Maintain a list of entities with whom the personal data of is shared.|Business,Architecture,Security,Catalog,Access,Documentation||
 
 ## Right to seek correction
 
@@ -348,12 +349,12 @@ Reference: Clause 18
 Functions: Legal/Compliance, Technical and IT, Customer Relations
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Develop internal processes that enable correction of inaccurate data, completion of incomplete data, and update old data in a timely manner.|
-|2|Action 2|Create a system whereby relevant stakeholders are notified of any change to the data pursuant to such requests.|
-|3|Action 3|Understand the legal mechanisms under which these rights can be resisted.|
-|4|Action 4|Develop templates which list the reasons for denial of such requests.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Develop internal processes that enable correction of inaccurate data, completion of incomplete data, and update old data in a timely manner.|Business||
+|2|Action 2|Create a system whereby relevant stakeholders are notified of any change to the data pursuant to such requests.|Business,Catalog,Documentation||
+|3|Action 3|Understand the legal mechanisms under which these rights can be resisted.|Business||
+|4|Action 4|Develop templates which list the reasons for denial of such requests.|Business,Documentation||
 
 ## Right to data portability
 
@@ -365,12 +366,12 @@ Reference: Clause 19
 Functions: Legal/Compliance, Technical and IT, Customer Relations
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Classify personal data according to automated processing and non-automated processing.|
-|2|Action 2|Assess different machine-readable formats.|
-|3|Action 3|Develop processes to enable secure data transfer to other data fiduciaries.|
-|4|Action 4|Understand the legal mechanisms under which such requests can be resisted|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Classify personal data according to automated processing and non-automated processing.|Architecture,Catalog,Classification||
+|2|Action 2|Assess different machine-readable formats.|Architecture,Catalog,Classification,Transformation||
+|3|Action 3|Develop processes to enable secure data transfer to other data fiduciaries.|Architecture,Security,Catalog,Transformation||
+|4|Action 4|Understand the legal mechanisms under which such requests can be resisted|Business||
 
 ## Right to be forgotten
 
@@ -382,10 +383,10 @@ Reference: Clause 20
 Functions: Legal/Compliance, Technical and IT, Customer Relations
 
 Groups: Data Fiduciaries
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Develop processes to determine the relevance of the data to the purpose of collection.|
-|2|Action 2|Inform other stakeholders that the data principal has requested the erasure of personal data.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Develop processes to determine the relevance of the data to the purpose of collection.|Business,Architecture,Documentation||
+|2|Action 2|Inform other stakeholders that the data principal has requested the erasure of personal data.|Architecture,Security,Catalog,Documentation||
 
 # TRANSFERRING DATA OUTSIDE INDIA
 
@@ -399,11 +400,11 @@ Reference: Clause 33
 Functions: Legal/Compliance, Technical and IT
 
 Groups: Data Fiduciaries, Data Processors
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Identify where data resides and review the residency practices.|
-|2|Action 2|Ensure local processing and storage of critical personal data.|
-|3|Action 3|Ensure local storage of sensitive personal data.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Identify where data resides and review the residency practices.|Business,Architecture,Security,Catalog||
+|2|Action 2|Ensure local processing and storage of critical personal data.|Architecture,Catalog,Classification||
+|3|Action 3|Ensure local storage of sensitive personal data.|Business,Architecture,Security||
 
 ## Cross-border transfers
 
@@ -417,11 +418,11 @@ Reference: Clause 34
 Functions: Legal/Compliance
 
 Groups: Data Fiduciaries, Data Processors
-|No|Description|Check|
-| :--- | :--- | :--- |
-|1|Action 1|Review processes for cross-border transfers.|
-|2|Action 2|Develop specific processes to conduct transfer of sensitive personal data.|
-|3|Action 3|Ensure that explicit consent is obtained before transferring data outside India.|
-|4|Action 4|Prepare contracts/ intra-group schemes and have them approved by the DPA.|
-|5|Action 5|Consider preparing a template for request for specific approval from the DPA.|
-|6|Action 6|Formulate country-specific processes for cross-border transfers.|
+|No|Title|Description|Tags|Check|
+| :--- | :--- | :--- | :--- | :--- |
+|1|Action 1|Review processes for cross-border transfers.|Business,Architecture,Security||
+|2|Action 2|Develop specific processes to conduct transfer of sensitive personal data.|Security||
+|3|Action 3|Ensure that explicit consent is obtained before transferring data outside India.|Business,Security,Interaction||
+|4|Action 4|Prepare contracts/ intra-group schemes and have them approved by the DPA.|Business,Documentation||
+|5|Action 5|Consider preparing a template for request for specific approval from the DPA.|Business,Documentation||
+|6|Action 6|Formulate country-specific processes for cross-border transfers.|Business||

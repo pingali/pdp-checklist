@@ -43,7 +43,7 @@ approving this digitization process.
 About Scribble 
 ---------------
 
-[Scribble Data](https://scribbledata.io) is a data processor for
+[Scribble Data](https://www.scribbledata.io) is a data processor for
 enterprises. Our main offering is a trustworthy and secure Machine
 Learning data preparation service that enables enterprises to
 productionize machine learning models 5x faster, and scale their
